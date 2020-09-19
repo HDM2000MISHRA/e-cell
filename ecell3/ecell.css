@@ -1,0 +1,238 @@
+*{
+    margin:0px
+    padding: 0px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+#home{
+
+    display:flex;
+     flex-direction:  column; 
+    justify-content:center;
+    align-items:center;
+    height:628px;
+    background-image:url('e.f.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* #home  ::before{
+    content: "";
+    position: absolute;
+    /* background-image: url('e.f.png');
+} */ 
+
+.h-primary{
+    font-size: 2.8rem;
+    padding:12px;
+    margin:120px 0px 0px 0px;
+    color : white;
+    font-family: 'Ranchers', cursive;
+}
+#home p{
+     color :white;
+     text-align: center;
+     font-size: 1.5rem;
+     font-family: 'Grandstander', cursive;
+    padding: 40px;
+}
+.btn{
+     padding:6px 20px;
+     border:2px solid white;
+     background-color: rgb(0, 48, 106);
+     color:white;
+     font-family: 'Ranchers', cursive;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+
+
+
+h1{
+    font-family: 'Grandstander', cursive;
+font-family: 'Rubik', sans-serif;
+font-size: 50px;
+
+
+}
+.container {
+    padding: 64px;
+    font-family: 'Grandstander', cursive;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+
+  .btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e4f8e;
+  }
+  .hemu{
+    padding: 0px 0px 0px 430px;
+    BACKGROUND-COLOR:rgb(4, 159, 173)
+    display: flex;
+}
+.hemu div{
+    display:flex;
+    margin:0px 250px 0px 0px;
+}
+.hemu img{
+    height:100px;
+    border-radius: 18px;
+}
+.hemu h1{
+    margin: 0px 0px 0px 150px;
+    font-family: 'Kufam', cursive;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  
